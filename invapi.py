@@ -1,8 +1,9 @@
 import sys
+from fastapi import FastAPI
 
-def main():
-    """Main entry point for the script."""
-    pass
 
-if __name__ == '__main__':
-    sys.exit(main())
+app = FastAPI()
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
