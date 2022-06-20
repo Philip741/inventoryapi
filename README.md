@@ -1,5 +1,5 @@
 # inventoryapi
-Python based api mainly for ansible dynamic inventory
+Python based api. I plan on using as a basic Content Management Database system.
 
 #Virtual environment management for development
 I used pipenv to manage the python virtualenv for development. 
