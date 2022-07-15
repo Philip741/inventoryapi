@@ -9,5 +9,3 @@ class Record(Base):
     date = Column(Date)
     servername = Column(String(255), index=True)
     ip_address = Column(String(25))
-    
-    
